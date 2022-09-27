@@ -247,6 +247,10 @@ body {
   gap: 30px;
 }
 
+.services-list .item {
+  width: calc((100%-60px) / 3);
+}
+
 .services-title {
   margin-bottom: 50px;
 
