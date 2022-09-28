@@ -166,7 +166,10 @@ body {
 /* Hero */
 
 .hero {
-  background: #2f303a;
+  height: 600px;
+  max-width: 1600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+  background-color: #2f303a;
 }
 .hero-elements {
   padding: 200px 0px;
@@ -311,16 +314,40 @@ body {
   color: var(--text-color);
 }
 
+.team-soc-list {
+  margin: 0 32px 30px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+/* Coustomers */
+
+.list-coustomers {
+  display: flex;
+  gap: 30px;
+}
+
+.item-coustomers {
+  width: 170px;
+  height: 92px;
+}
+
 /* Footer */
 
 .footer {
   padding: 60px 0;
   background: #2f303a;
 }
-
-/* .footer_elements {
-  padding: 60px 0;
-} */
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
