@@ -154,14 +154,21 @@ body {
   display: block;
 }
 
+.icon-header-contats {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header-item-mail:hover,
 .header-item-mail:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .header-item-tel:hover,
 .header-item-tel:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* Hero */
