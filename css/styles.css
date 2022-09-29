@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --secondary-color: #ffffff;
+  --color-icon: #AFB1B8;
 }
 
 h1,
@@ -316,19 +317,33 @@ body {
 
 .team-soc-list {
   margin: 0 32px 30px 32px;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
+
 .team-soc-link {
   width: 44px;
   height: 44px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  background-color: var(--accent-color);
+  color: var(--color-icon);
 }
+
+.icon-link {
+  fill: currentColor;
+} 
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+} 
+
 
 /* Coustomers */
 
